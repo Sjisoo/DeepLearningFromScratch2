@@ -16,4 +16,3 @@ a = sigmoid(h)
 s = np.matmul(a,W2) +b2
 
 print(h)
-
