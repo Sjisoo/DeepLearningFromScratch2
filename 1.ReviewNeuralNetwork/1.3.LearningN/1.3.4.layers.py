@@ -18,3 +18,4 @@ class MatMul:
         dW = np.matmul(self.x.T, dout)
         self.grads[0][...] = dW
         return dx
+    
